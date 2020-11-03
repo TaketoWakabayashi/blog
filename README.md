@@ -8,5 +8,7 @@ TaketoWakabayashi がブログを投稿・管理するために利用してい�
 
 - [迷走 IT Pro ですわな〜](https://taketowakabayashi.github.io/blog/)
 
+![ブログイメージ](https://user-images.githubusercontent.com/31479379/98005810-d2480500-1e34-11eb-9b86-547431a95d26.png)
+
 # Author
 - TaketoWakabayashi
