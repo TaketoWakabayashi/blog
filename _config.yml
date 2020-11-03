@@ -15,22 +15,13 @@
 # in the templates via {{ site.myvariable }}.
 title: 迷走 IT Pro ですわな〜
 email: taketo.wakabayashi@gmail.com
+copyright: Copyright © 2020
+author: TaketoWakabayashi
 description: >- # this means to ignore newlines until "baseurl:"
-  やりたい事は色々あるけれども、目の前のことに必死で取り組むことで得られたスキルや
-  その時の出会いなどに大きく左右されている人生において、日々起こることをつらつらと書いていきたい。（IT周りが中心になりそう）
+  日本の労働生産性を向上させることで世の中を快適にすべく、日々試行錯誤する人間のブログ
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://taketowakabayashi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
-
-twitter_username: 
-github_username:  TaketoWakabayashi
-
-# Build settings
-markdown: kramdown
-remote_theme: jeffreytse/jekyll-theme-yat
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -43,3 +34,117 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Yat date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+yat:
+  date_format: "%b %d, %Y"
+
+# If you want more debug log, you can set true
+# debug: false
+
+# If you don't want transparent header, you can set false
+# header_transparent: true
+
+# Google analytics
+# google_analytics: [Tracking ID]
+
+# If you want to generate website sitemap, you can set true
+# sitemap: false
+
+# If you want to change site language, you can set lang option
+# lang: "en"  # default lang is en
+
+# Translate languges
+# langs refer to https://cloud.google.com/translate/docs/languages
+# translate_langs:
+#   - lang: en
+#     text: English
+#
+#   - lang: fr
+#     img: https://www.countryflags.io/fr/flat/64.png
+#     text: Franch
+#
+#   - lang: zh-CN
+#     img: https://www.countryflags.io/cn/flat/64.png
+#     text: Chinese(Simple)
+#
+#   - lang: zh-TW
+#     img: https://www.countryflags.io/tw/flat/64.png
+#     text: Chinese(Traditional)
+#
+#   - lang: ja
+#     img: https://www.countryflags.io/jp/flat/64.png
+#     text: Japan
+#
+#   - lang: ko
+#     img: https://www.countryflags.io/kr/flat/64.png
+#     text: Korean
+#
+#   - lang: ru
+#     img: https://www.countryflags.io/ru/flat/64.png
+#     text: Russia
+
+# You can choose a theme color
+# Default theme colors as below:
+# coolblack: #090a0b
+# spacegrey: #353535
+# snowwhite: #ffffff
+#
+# theme_color: snowwhite
+#
+# Custom color as below:
+# theme_color: "#882250"
+
+# Night/Dark mode
+# Default mode is "auto", "auto" is for auto nightshift
+# (19:00 - 07:00), "manual" is for manual toggle, and
+# "on/off" is for always on/off.
+# night_mode: "auto"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - index.html
+  - archives.html
+  - categories.html
+  - tags.html
+  - about.md
+
+# Page default value
+defaults:
+  home:
+    heading: 迷走 IT Pro ですわな〜
+    subheading: 日本の労働生産性を向上させることで世の中を快適にすべく、日々試行錯誤する人間のブログ
+    #banner: "/assets/images/IMG_3073.JPG"
+
+# Pagination setting
+# paginate: 5
+
+# Disqus comments
+# disqus:
+#   shortname: "Your Disqus username"
+
+# Gitment comments
+# gitment:
+#   username: "Your GitHub username"
+#   repo: "The repo to store comments"
+#   client_id: "Your client ID"
+#   client_secret: "Your client secret"
+#   redirect_uri: "Your redirect url"   # If you use a custom domain name
+
+# Build settings
+# highlighter: none
+markdown: kramdown
+kmarkdown:
+  input: GFM
+remote_theme: jeffreytse/jekyll-theme-yat
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
+  - jekyll-remote-theme
