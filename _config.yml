@@ -20,8 +20,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   その時の出会いなどに大きく左右されている人生において、日々起こることをつらつらと書いていきたい。（IT周りが中心になりそう）
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://taketowakabayashi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+favicon: "" # the favicon for your site
+
+twitter_username: 
+github_username:  TaketoWakabayashi
 
 # Build settings
 markdown: kramdown
