@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "はじめまして"
-date:   2020-11-03 14:50:56 +0900
-categories: self
+date:   2020-11-03 00:00:00 +0900
+categories: Life
 ---
 
 ## はじめまして
@@ -10,7 +10,7 @@ categories: self
 
 改めてブログ（というかアウトプット）を習慣化したいと思い、気分を一新するためにも Github Pages & Jekyll 構成でブログ環境の構築を行ってみました。
 
-ちなみに著者の自己紹介については[こちら](https://taketowakabayashi.github.io/blog/about.html)にまとめてみたので、もし興味があれば見てみてください。
+ちなみに著者の経歴当については[こちら](https://taketowakabayashi.github.io/blog/about.html)にまとめてみたので、もし興味があれば見てみてください。
 
 ## これから書いていきたいこと
 とりあえず自分が得意としているIT領域を中心に書いていく予定ではありますが、最近は労務・総務を含めた会社の働き方に関する機能全般に関わり始めたので、オフィスのあり方や労務管理のTopicに関しても記載していこうかなと思います。
