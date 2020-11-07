@@ -15,7 +15,7 @@ Slack で問い合わせ管理専用チャンネルを運用する際に良く�
 ## よくある Slack 問い合わせ対応チャンネル運用
 Slack 公式にもあるような問い合わせ専用チャンネルが存在し、従業員から問い合わせが順次飛んでくる形で運用されているケースが多いかなと思います。
 
-![ITサポート](../assets/images/2020-11-07-it-servicedesk.png)
+![ITサポート]({{site.baseurl}}/assets/images/2020-11-07-it-servicedesk.png)
 
 問い合わせを受け付けている側は、以下のような流れで対応を行うケースが多いと思います。
 
@@ -39,7 +39,7 @@ Slack API & Google Apps Script & Google Data Portal を使って、残タスク�
 3. 問い合わせに対しては、スレッドでやりとりを行う（1スレッドを1件の問い合わせとしてカウント）
 
 ### 実装したダッシュボード
-![Data Portal](../assets/images/2020-11-07-Slack-Data-Portal.png)
+![Data Portal]({{site.baseurl}}/assets/images/2020-11-07-Slack-Data-Portal.png)
 
 ### 自動更新の流れ
 1. Google Apps Sciprt の [Time-driven triggers](https://developers.google.com/apps-script/guides/triggers/installable#time-driven_triggers)により、15分に一度関数がトリガーされる
