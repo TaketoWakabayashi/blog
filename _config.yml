@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   日本の労働生産性を向上させることで世の中を快適にすべく、日々試行錯誤する人間のブログ
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://taketowakabayashi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "{{site.baseurl}}/assets/images/favicon.ico" # the favicon for your site
+favicon: "assets/images/favicon.ico" # the favicon for your site
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
