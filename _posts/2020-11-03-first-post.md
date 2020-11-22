@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "はじめまして"
-date:   2020-11-03 00:00:00 +0900
+date:   2020-11-03
 categories: Life
 ---
 
