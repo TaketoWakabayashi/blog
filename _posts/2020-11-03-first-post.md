@@ -2,7 +2,7 @@
 layout: post
 title:  "はじめまして"
 date:   2020-11-03
-categories: Life
+categories: MISC
 ---
 
 ## はじめまして
