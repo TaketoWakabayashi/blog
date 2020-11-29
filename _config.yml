@@ -54,17 +54,16 @@ google_analytics: G-32CCW57QQC
 # sitemap: false
 
 # If you want to change site language, you can set lang option
-lang: "ja"  # default lang is ja
+# lang: "ja"  # default lang is ja
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
-translate_langs:
-  - lang: ja
-    img: https://www.countryflags.io/jp/flat/64.png
-    text: Japan
-  - lang: en
-    text: English
-
+# translate_langs:
+#   - lang: ja
+#     img: https://www.countryflags.io/jp/flat/64.png
+#     text: Japan
+#   - lang: en
+#     text: English
 #
 #   - lang: fr
 #     img: https://www.countryflags.io/fr/flat/64.png
