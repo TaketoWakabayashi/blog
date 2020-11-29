@@ -51,7 +51,7 @@ yat:
 google_analytics: UA-184132539-1
 
 # If you want to generate website sitemap, you can set true
-# sitemap: false
+sitemap: true
 
 # If you want to change site language, you can set lang option
 # lang: "ja"  # default lang is ja
