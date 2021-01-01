@@ -122,8 +122,8 @@ header_pages:
 # paginate: 5
 
 # Disqus comments
-# disqus:
-#   shortname: "Your Disqus username"
+disqus:
+  shortname: "t-wakabayashi"
 
 # Gitment comments
 # gitment:
