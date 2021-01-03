@@ -54,7 +54,7 @@ google_analytics: UA-184132539-1
 sitemap: true
 
 # If you want to change site language, you can set lang option
-# lang: "ja"  # default lang is ja
+lang: "ja"  # default lang is ja
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
