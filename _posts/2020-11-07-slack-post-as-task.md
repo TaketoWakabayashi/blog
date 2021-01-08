@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Slack における問い合わせ対応を高度化してみた"
+title:  "Slack 上での社内問い合わせ対応を高度化してみた"
 date:   2020-11-07
 categories: IT
 tags:
