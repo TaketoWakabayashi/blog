@@ -80,8 +80,8 @@ GAS で実装したアルゴリズムの概要は以下になります。
 
 ```javascript
 const ZOOM_CALENDER_IDS = [
-  PropertiesService.getScriptProperties().getProperty('ZOOM_CALENDAR_ID_1'),
-  PropertiesService.getScriptProperties().getProperty('ZOOM_CALENDAR_ID_2')
+  'c_1884r7gg9qe5uge5khrv0rntqfqr64gbe9im2p3pcpnn4bjae0@resource.calendar.google.com',
+  'c_188fpguoa3m5kh7fmbp3mofj296du4gbe9im2p3pcpnn4bjae0@resource.calendar.google.com'
 ]
 
 function main() {
@@ -89,7 +89,8 @@ function main() {
   const tomorrow = new Date(today);
   tomorrow.setDate(tomorrow.getDate() + 1);
 
-  let strBody = ':zoom: *Zoomライセンス操作通知(' + Utilities.formatDate(tomorrow, 'JST', 'yyyy/MM/dd') + ')* :zoom:\n';
+  let strHeader = ':zoom: *Zoomライセンス操作通知(' + Utilities.formatDate(tomorrow, 'JST', 'yyyy/MM/dd') + ')* :zoom:\n';
+  let strBody = ``;
   try {
     const token = getZoomToken();
 
@@ -98,6 +99,9 @@ function main() {
       let todayEvents = cal.getEventsForDay(today);
       let tomorrowEvents = cal.getEventsForDay(tomorrow);
 
+      if (!todayEvents.length && !tomorrowEvents.length) {
+        continue;
+      }
       strBody += cal.getTitle() + '\n';
       if (todayEvents.length) {
         strBody += '剥奪：' + getEventsStr(todayEvents) + '\n';
@@ -111,7 +115,10 @@ function main() {
         strBody += ':warning: <@taketo.wakabayashi> 特殊ケースのため、ライセンス処理が正しく行われているか確認してください' + '\n';
       }
     }
-    postToSlack_(strBody);
+
+    if (strBody) {
+      postToSlack_(strHeader + strBody);
+    }
   } catch (e) {
     postToSlack_(':warning: <@taketo.wakabayashi> エラーが発生したようなので、状況を確認してください');
   }
