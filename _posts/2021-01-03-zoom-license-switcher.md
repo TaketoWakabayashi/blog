@@ -81,8 +81,8 @@ GAS で実装したアルゴリズムの概要は以下になります。
 
 ```javascript
 const ZOOM_CALENDER_IDS = [
-  'c_1884r7gg9qe5uge5khrv0rntqfqr64gbe9im2p3pcpnn4bjae0@resource.calendar.google.com',
-  'c_188fpguoa3m5kh7fmbp3mofj296du4gbe9im2p3pcpnn4bjae0@resource.calendar.google.com'
+  PropertiesService.getScriptProperties().getProperty('ZOOM_CALENDAR_ID_1'),
+  PropertiesService.getScriptProperties().getProperty('ZOOM_CALENDAR_ID_2')'
 ]
 
 function main() {
