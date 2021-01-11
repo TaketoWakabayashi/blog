@@ -112,11 +112,11 @@ header_pages:
   - about.md
 
 # Page default value
-# defaults:
-#  home:
-#    heading: 迷走 IT Pro ですわな〜
-#    subheading: 日本の労働生産性を向上させることで世の中を快適にすべく、日々試行錯誤する人間のブログ
-#    banner: "/assets/images/home_banner.jpeg"
+defaults:
+  home:
+    banner: "/assets/images/home_banner.jpeg"
+  post:
+    banner: "/assets/images/post_banner.jpeg"
 
 # Pagination setting
 # paginate: 5
