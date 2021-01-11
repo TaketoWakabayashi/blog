@@ -113,8 +113,6 @@ header_pages:
 
 # Page default value
 defaults:
-  home:
-    banner: "/assets/images/home_banner.jpeg"
   post:
     banner: "/assets/images/post_banner.jpeg"
 
