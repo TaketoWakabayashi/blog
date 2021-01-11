@@ -57,7 +57,7 @@ Google Calendar & Google Apps Script & Zoom API を使って、Zoom の利用予
     - 一つのライセンスにつき、1日1予約まで
 2. 毎日夜中、カレンダーの登録内容に基づいて次の日に予約しているユーザーにライセンスを付与する
 
-![Zoomライセンス予約]({{ "/assets/images/2021-01-03-Zoom-Resorce.png" | relative_url }})
+![Zoomライセンス予約]({{ "/assets/images/2021-01-03-zoom-resorce.png" | relative_url }})
 
 
 

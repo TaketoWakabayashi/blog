@@ -40,7 +40,7 @@ Slack API & Google Apps Script & Google Data Portal を使って、残タスク�
 3. 問い合わせに対しては、スレッドでやりとりを行う（1スレッドを1件の問い合わせとしてカウント）
 
 ### 実装したダッシュボード
-![Data Portal]({{ "/assets/images/2020-11-07-Slack-Data-Portal.png" | relative_url }})
+![Data Portal]({{ "/assets/images/2020-11-07-slack-data-portal.png" | relative_url }})
 
 ### 自動更新の流れ
 1. Google Apps Sciprt の [Time-driven triggers](https://developers.google.com/apps-script/guides/triggers/installable#time-driven_triggers)により、15分に一度関数がトリガーされる

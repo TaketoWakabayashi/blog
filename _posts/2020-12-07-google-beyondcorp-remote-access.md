@@ -31,7 +31,7 @@ tag:
 
 この記事のタイトルにも記載している **Google BeyondCorp Remote Access** は、まさに Google がゼロトラストモデルを実現するためのコンポーネント群を、サービスとして提供しているものの総称となります。
 
-![BeyondCorp Remote Access]({{ "/assets/images/2020-12-07-GoogleBeyondCorpRemoteAccess.svg" | relative_url }})
+![BeyondCorp Remote Access]({{ "/assets/images/2020-12-07-google-beyondcorp-remote-access.svg" | relative_url }})
 
 - [BeyondCorp Remote Access](https://cloud.google.com/beyondcorp-enterprise)
 
