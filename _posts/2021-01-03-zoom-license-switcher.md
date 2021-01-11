@@ -82,7 +82,7 @@ GAS で実装したアルゴリズムの概要は以下になります。
 ```javascript
 const ZOOM_CALENDER_IDS = [
   PropertiesService.getScriptProperties().getProperty('ZOOM_CALENDAR_ID_1'),
-  PropertiesService.getScriptProperties().getProperty('ZOOM_CALENDAR_ID_2')'
+  PropertiesService.getScriptProperties().getProperty('ZOOM_CALENDAR_ID_2')
 ]
 
 function main() {
@@ -91,7 +91,7 @@ function main() {
   tomorrow.setDate(tomorrow.getDate() + 1);
 
   let strHeader = ':zoom: *Zoomライセンス操作通知(' + Utilities.formatDate(tomorrow, 'JST', 'yyyy/MM/dd') + ')* :zoom:\n';
-  let strBody = ``;
+  let strBody = '';
   try {
     const token = getZoomToken();
 
