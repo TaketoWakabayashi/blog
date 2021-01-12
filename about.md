@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-banner: "/assets/images/about_banner.jpeg"
+banner: "/assets/images/about_banner.jpg"
 ---
 
 ## 基本情報

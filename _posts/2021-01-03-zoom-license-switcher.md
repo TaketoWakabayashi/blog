@@ -26,7 +26,7 @@ Zoom のライセンスは同時開催しない限りは以下の記事にもあ
 ## Zoom のライセンス形態について
 まず大前提となる Zoom のライセンスについておさらいです。下記にもあるように、40分を超えるミーティングを実施したい場合、ミーティングホストが有料ライセンスを付与されている必要が出てきます。
 
-![Zoomプラン]({{ "/assets/images/2021-01-03-zoom-plans.png" | relative_url }})
+![Zoomプラン]({{ "/assets/images/2021-01-03-zoom-plans.jpg" | relative_url }})
 
 - [Zoom Pricing](https://zoom.us/pricing)
 
@@ -58,7 +58,7 @@ Google Calendar & Google Apps Script & Zoom API を使って、Zoom の利用予
     - 一つのライセンスにつき、1日1予約まで
 2. 毎日夜中、カレンダーの登録内容に基づいて次の日に予約しているユーザーにライセンスを付与する
 
-![Zoomライセンス予約]({{ "/assets/images/2021-01-03-zoom-resorce.png" | relative_url }})
+![Zoomライセンス予約]({{ "/assets/images/2021-01-03-zoom-resorce.jpg" | relative_url }})
 
 
 
