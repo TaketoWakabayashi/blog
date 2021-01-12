@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Zoom ライセンスの使いまわし運用をGASで自動化してみた"
+description: "Zoom の有償ライセンスの付け替え運用をGASで自動化してみたお話"
 date:   2021-01-03
 categories: IT
 tag: 

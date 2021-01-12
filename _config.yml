@@ -114,7 +114,7 @@ header_pages:
 # Page default value
 defaults:
   post:
-    banner: "/assets/images/post_banner.jpeg"
+    banner: "/assets/images/post_banner.jpg"
 
 # Pagination setting
 # paginate: 5

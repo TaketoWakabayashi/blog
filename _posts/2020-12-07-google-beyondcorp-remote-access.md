@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Google BeyondCorp Remote Access で実現するゼロトラストの今とこれから"
+description: "READYFORに入社してから全社のゼロトラストセキュリティ基盤として導入を進めている Google BeyondCorp Remote Access について、現時点で実現できる事などをまとめてみました"
 date:   2020-12-07
 categories: IT
 tag: 
