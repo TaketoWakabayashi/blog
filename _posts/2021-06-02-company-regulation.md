@@ -81,7 +81,7 @@ Github上での規程運用の流れは以下になります。なお、規程�
 
 - 静的サイトジェネレータ：[Jekyll](http://jekyllrb-ja.github.io/) & [rundocs/jekyll-rtd-theme](https://github.com/rundocs/jekyll-rtd-theme)
 - サイトホスティング・認証/認可：[Google App Engine](https://cloud.google.com/appengine?hl=ja) & [Identity-Aware Proxy](https://cloud.google.com/iap)
-- CI/CD：Github Actions
+- CI/CD：[Github Actions](https://github.co.jp/features/actions)
 
 ### 静的サイトジェネレータ：[Jekyll](http://jekyllrb-ja.github.io/) & [rundocs/jekyll-rtd-theme](https://github.com/rundocs/jekyll-rtd-theme)
 [認証/認可及びコスト（全従業員分のアカウント発行が難しい）](https://github.blog/jp/2021-01-25-access-control-for-github-page/)の関係で Github Pages をそのまま利用することは難しかったので、別途規程公開用の静的サイトジェネレータを利用しました。Jekyllを選択した理由は、シンプルにGithub Pages が正式にサポートしているからですね。（このブログをやっていたこともあって利用も慣れているので）
