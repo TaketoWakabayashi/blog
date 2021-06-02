@@ -3,7 +3,7 @@ layout: post
 title:  "Github & Jekyll & GAE & IAP で規程更新管理・社内公開プラットフォームを構築してみた"
 description: "Github"
 date:   2021-06-02
-categories: MISC
+categories: IT
 tag: 
 - Github
 - Jekyll
