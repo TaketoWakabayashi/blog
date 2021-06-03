@@ -92,7 +92,7 @@ Github上での規程運用の流れは以下になります。なお、規程�
 ### サイトホスティング・認証/認可：[Google App Engine](https://cloud.google.com/appengine?hl=ja) & [Identity-Aware Proxy](https://cloud.google.com/iap)
 静的サイトホスティングはどこでも良かったのですが、従業員の認証/認可は Google Workspace のアカウントで行いたいという思いがありました。
 
-元々、[Google BeyondCorp Remote Access で実現するゼロトラストの今とこれから](https://blog.t-wakabayashi.com/it/2020/12/07/google-beyondcorp-remote-access.html)でも紹介しているように、Google を基盤に据えたゼロトラストモデルを構築していることもあったので、Identity-Aware Proxy の活用が用意な Google App Engine でホストすることにしました。
+元々、[Google BeyondCorp Remote Access で実現するゼロトラストの今とこれから](https://blog.t-wakabayashi.com/it/2020/12/07/google-beyondcorp-remote-access.html)でも紹介しているように、Google を基盤に据えたゼロトラストモデルを構築していることもあったので、Identity-Aware Proxy との連携が容易な Google App Engine でホストすることにしました。
 
 ### CI/CD：[Github Actions](https://github.co.jp/features/actions)
 Github Pages であればここもよしなにやってくれるのですが、今回はGAE上にデプロイする必要がある構成になってしまっているので、Github Actions を利用してGAEにデプロイしました。
