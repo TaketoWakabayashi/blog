@@ -49,7 +49,7 @@ Slack API & Google Apps Script & Google Data Portal を使って、残タスク�
 
 ### サンプルコード（Google Apps Script）
 
-```javascript
+```JavaScript
 // 変数
 var token = PropertiesService.getScriptProperties().getProperty('token');
 var channelid = PropertiesService.getScriptProperties().getProperty('channnelid');
