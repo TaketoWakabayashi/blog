@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Google BeyondCorp Remote Access で実現するゼロトラストの今とこれから"
+description: "READYFORに入社してから全社のゼロトラストセキュリティ基盤として導入を進めている Google BeyondCorp Remote Access について、現時点で実現できる事などをまとめてみました"
 date:   2020-12-07
 categories: IT
 tag: 
@@ -31,7 +32,7 @@ tag:
 
 この記事のタイトルにも記載している **Google BeyondCorp Remote Access** は、まさに Google がゼロトラストモデルを実現するためのコンポーネント群を、サービスとして提供しているものの総称となります。
 
-![BeyondCorp Remote Access]({{ "/assets/images/2020-12-07-GoogleBeyondCorpRemoteAccess.svg" | relative_url }})
+![BeyondCorp Remote Access]({{ "/assets/images/2020-12-07-google-beyondcorp-remote-access.svg" | relative_url }})
 
 - [BeyondCorp Remote Access](https://cloud.google.com/beyondcorp-enterprise)
 

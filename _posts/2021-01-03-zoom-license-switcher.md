@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Zoom ライセンスの使いまわし運用をGASで自動化してみた"
+description: "Zoom の有償ライセンスの付け替え運用をGASで自動化してみたお話"
 date:   2021-01-03
 categories: IT
 tag: 
@@ -25,7 +26,7 @@ Zoom のライセンスは同時開催しない限りは以下の記事にもあ
 ## Zoom のライセンス形態について
 まず大前提となる Zoom のライセンスについておさらいです。下記にもあるように、40分を超えるミーティングを実施したい場合、ミーティングホストが有料ライセンスを付与されている必要が出てきます。
 
-![Zoomプラン]({{ "/assets/images/2021-01-03-zoom-plans.png" | relative_url }})
+![Zoomプラン]({{ "/assets/images/2021-01-03-zoom-plans.jpg" | relative_url }})
 
 - [Zoom Pricing](https://zoom.us/pricing)
 
@@ -55,10 +56,11 @@ Google Calendar & Google Apps Script & Zoom API を使って、Zoom の利用予
     - [ビルディング、設備や機能、カレンダー リソースの設定](https://support.google.com/a/answer/1033925)にて事前に登録
     - ライセンスを複数保有している場合はその数だけ登録しておくことで、同時開催数の上限を制限する
     - 一つのライセンスにつき、1日1予約まで
-
-![Zoomライセンス予約]({{ "/assets/images/2021-01-03-Zoom-Resorce.png" | relative_url }})
-
 2. 毎日夜中、カレンダーの登録内容に基づいて次の日に予約しているユーザーにライセンスを付与する
+
+![Zoomライセンス予約]({{ "/assets/images/2021-01-03-zoom-resorce.jpg" | relative_url }})
+
+
 
 この 2 の動作を、GAS + Zoom API で実現した詳細が以下になります。
 
@@ -89,7 +91,8 @@ function main() {
   const tomorrow = new Date(today);
   tomorrow.setDate(tomorrow.getDate() + 1);
 
-  let strBody = ':zoom: *Zoomライセンス操作通知(' + Utilities.formatDate(tomorrow, 'JST', 'yyyy/MM/dd') + ')* :zoom:\n';
+  let strHeader = ':zoom: *Zoomライセンス操作通知(' + Utilities.formatDate(tomorrow, 'JST', 'yyyy/MM/dd') + ')* :zoom:\n';
+  let strBody = '';
   try {
     const token = getZoomToken();
 
@@ -98,6 +101,9 @@ function main() {
       let todayEvents = cal.getEventsForDay(today);
       let tomorrowEvents = cal.getEventsForDay(tomorrow);
 
+      if (!todayEvents.length && !tomorrowEvents.length) {
+        continue;
+      }
       strBody += cal.getTitle() + '\n';
       if (todayEvents.length) {
         strBody += '剥奪：' + getEventsStr(todayEvents) + '\n';
@@ -111,7 +117,10 @@ function main() {
         strBody += ':warning: <@taketo.wakabayashi> 特殊ケースのため、ライセンス処理が正しく行われているか確認してください' + '\n';
       }
     }
-    postToSlack_(strBody);
+
+    if (strBody) {
+      postToSlack_(strHeader + strBody);
+    }
   } catch (e) {
     postToSlack_(':warning: <@taketo.wakabayashi> エラーが発生したようなので、状況を確認してください');
   }

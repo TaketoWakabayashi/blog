@@ -45,7 +45,7 @@ yat:
 # debug: false
 
 # If you don't want transparent header, you can set false
-# header_transparent: true
+header_transparent: true
 
 # Google analytics
 google_analytics: UA-184132539-1
@@ -54,7 +54,7 @@ google_analytics: UA-184132539-1
 sitemap: true
 
 # If you want to change site language, you can set lang option
-lang: "ja"  # default lang is ja
+lang: "jp"  # default lang is jp
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
@@ -112,14 +112,12 @@ header_pages:
   - about.md
 
 # Page default value
-# defaults:
-#  home:
-#    heading: 迷走 IT Pro ですわな〜
-#    subheading: 日本の労働生産性を向上させることで世の中を快適にすべく、日々試行錯誤する人間のブログ
-#    banner: "/assets/images/home_banner.jpeg"
+defaults:
+  post:
+    banner: "/assets/images/post_banner.jpg"
 
 # Pagination setting
-# paginate: 5
+paginate: 5
 
 # Disqus comments
 disqus:

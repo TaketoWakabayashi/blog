@@ -1,6 +1,7 @@
 ---
 layout: about
 title: About
+banner: "/assets/images/about_banner.jpg"
 ---
 
 ## 基本情報
@@ -20,13 +21,13 @@ title: About
 
 ### 学歴
 
-期間 | 組織 | 所属・役割
+期間 | 組織 | 所属
 2012/04 - 2014/03 | 神戸大学大学院 | システム情報学科 システム科学専攻
-2007/4 - 2012/03 | 神戸大学 | 工学部 情報知能工学科
+2007/04 - 2012/03 | 神戸大学 | 工学部 情報知能工学科
 
 ### 職歴
 
-期間 | 組織 | 所属 / 役割
+期間 | 組織 | 所属 / 役職
 2019/11 - | [READYFOR株式会社](https://corp.readyfor.jp/) | ワークスタイルデザイン部 / 部長
 2018/06 - 2019/10 | [株式会社メドレー](https://www.medley.jp/) | コーポレート本部 / コーポレートエンジニア
 2017/07 - 2018/05 | [PwCコンサルティング合同会社](https://www.pwc.com/jp/) |  Technology Consulting / Senior Associate
