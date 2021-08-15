@@ -40,8 +40,6 @@ banner: "/assets/images/about_banner.jpg"
 - ITインフラ全般（物理、クラウド共に）
 
 ## 講演・著作物等
-- [Google Cloud Next '19 in Tokyo にて、App Maker の活用事例を紹介しました](https://developer.medley.jp/entry/2019/08/26/142457)
-- [Google Cloud Next ’19 in Tokyo - Google Apps Script / AppMaker 最新アップデートと活用のヒント](https://cloud.withgoogle.com/next/19/tokyo/speakers?session=D2-4-S10)
-- [新型コロナで進む“リモート社会”はコミュニケーション＆評価に課題 夏野剛氏「アウトプットを出せない中間管理職は困るはず」](https://times.abema.tv/news-article/7045422)
 - [「ITの知見と技術で、働き方をよりよく変えたい」コロナ禍で生まれた、“エンジニアリング×労務”の新しいポジション](https://blog.readyfor.jp/n/ne9c236ec5878)
 - [Google BeyondCorp Remote Access で実現するゼロトラストの今とこれから](https://tech.readyfor.jp/entry/2020/12/07/105621)
+- [Google Cloud Next '19 in Tokyo にて、App Maker の活用事例を紹介しました](https://developer.medley.jp/entry/2019/08/26/142457)
