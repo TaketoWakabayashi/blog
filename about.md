@@ -8,6 +8,11 @@ banner: "/assets/images/about_banner.jpg"
 - 氏名：若林 岳人
 - 生年月日：1989/03/26
 
+## SNS
+- [Facebook](https://www.facebook.com/taketo.wakabayashi.tw/)
+- [Twitter](https://twitter.com/TW_Oner)
+- [LinkedIn](https://www.linkedin.com/in/taketo-wakabayashi/)
+
 ## 学歴・職歴
 
 ### 経歴要約
