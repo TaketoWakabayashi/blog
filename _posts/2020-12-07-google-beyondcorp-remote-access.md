@@ -5,9 +5,9 @@ description: "READYFORに入社してから全社のゼロトラストセキュ�
 date:   2020-12-07
 categories: IT
 tag: 
-- Google BeyondCorp Remote Access
+- Google BeyondCorp
 - Google Workspace
-- Zero Trust
+- Information Security
 ---
 
 ## 概要

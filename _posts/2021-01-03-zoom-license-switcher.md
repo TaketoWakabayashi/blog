@@ -5,8 +5,8 @@ description: "Zoom の有償ライセンスの付け替え運用をGASで自動�
 date:   2021-01-03
 categories: IT
 tag: 
-- Google Apps Script
-- Google Calendar
+- Business Process Re-engineering
+- Google Workspace
 - Zoom
 ---
 

@@ -6,8 +6,8 @@ date:   2020-11-07
 categories: IT
 tags:
 - Slack
-- Google Apps Script
-- Google Data Portal
+- Google Workspace
+- Business Process Re-engineering
 ---
 
 ## 概要
