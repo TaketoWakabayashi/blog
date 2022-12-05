@@ -21,8 +21,10 @@ banner: "/assets/images/about_banner.jpg"
 
 ### 職歴
 
-期間 | 組織 | 所属 / 役職
-2019/11 - | [READYFOR株式会社](https://corp.readyfor.jp/) | ワークスタイルデザイン部 / 部長
+期間 | 組織 | 所属 / 役職（役割）
+2022/04 - | [READYFOR株式会社](https://corp.readyfor.jp/) | 情報システム部 / 部長
+2022/04 - 2022/09 | [デジタル庁](https://www.digital.go.jp/) | ガバメントソリューションサービス班 / エンタープライズエンジニア
+2019/11 - 2022/03 | [READYFOR株式会社](https://corp.readyfor.jp/) | ワークスタイルデザイン部 / 部長
 2018/06 - 2019/10 | [株式会社メドレー](https://www.medley.jp/) | コーポレート本部 / コーポレートエンジニア
 2017/07 - 2018/05 | [PwCコンサルティング合同会社](https://www.pwc.com/jp/) |  Technology Consulting / Senior Associate
 2014/04 - 2017/06 | [日本電気株式会社(NEC)](https://jpn.nec.com/) | プラットフォームサービス事業部 / 担当
