@@ -42,7 +42,6 @@ READYFORでは全社の情報セキュリティ施策を進めていることが
 ## DLPソリューションの市場 と Google Workspace DLP の立ち位置
 
 世の中には、様々なレイヤで動作するDLPソリューションが提供されています。
-
 以下の表に、動作レイヤごとの代表的なDLPソリューションとその特徴をまとめてみました。
 
 | レイヤ | サービス例 | 特徴 |
@@ -51,7 +50,7 @@ READYFORでは全社の情報セキュリティ施策を進めていることが
 | エンドポイント | [Microsoft Endpoint DLP](https://learn.microsoft.com/ja-jp/microsoft-365/compliance/endpoint-dlp-using)<br>[BeyondCorp Threat and Data Protection を使用してデータ損失防止（DLP）機能を Chrome に統合する](https://support.google.com/a/answer/10104358?hl=ja#) | 複数のSaaSを横断してポリシー適用できるが、動作対象外のブラウザやプロファイルを利用されると制御しきれないことも。 | 
 | SaaS内のデータ | [Microsoft Purview](https://learn.microsoft.com/ja-jp/microsoft-365/compliance/dlp-learn-about-dlp)<br>[Workspace の DLP を使用してデータの損失を防止する](https://support.google.com/a/answer/9646351?hl=ja) | SaaSに組み込まれている機能のため、機密表示（ラベル）等と連携した細かな制御が実現可能。 |
 
-今回紹介する Google Workspace DLP は、**Google Drive に格納されているデータに特化** されているDLPソリューションであり、SaaSサービス横断で制御できる類のソリューションではないことを予めご了承ください。
+今回紹介する Google Workspace DLP は、**Google Drive に格納されているデータに特化** されているDLPソリューションであり、SaaS横断で制御できる類のソリューションではないことを予めご了承ください。
 
 ## Google Workspace DLP の良いところ、改善して欲しいところ
 
