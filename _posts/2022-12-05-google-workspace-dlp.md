@@ -49,6 +49,7 @@ READYFORでは全社の情報セキュリティ施策を進めていることが
 | ネットワーク | [Netskope Data Loss Prevention](https://www.netskope.com/jp/products/data-loss-prevention)<br> [Zscaler Data Loss Prevention](https://www.zscaler.jp/technology/data-loss-prevention)<br>[Microsoft Defender for Cloud Apps](https://learn.microsoft.com/ja-jp/microsoft-365/compliance/dlp-use-policies-non-microsoft-cloud-apps) | 複数のSaaSを横断して同一のポリシーを適用可能。<br>フォーワードプロキシやリバースプロキシ、API型等の実装方式が存在し、できることが大きく異なる。 |
 | エンドポイント | [Microsoft Endpoint DLP](https://learn.microsoft.com/ja-jp/microsoft-365/compliance/endpoint-dlp-using)<br>[BeyondCorp Threat and Data Protection を使用してデータ損失防止（DLP）機能を Chrome に統合する](https://support.google.com/a/answer/10104358?hl=ja#) | 複数のSaaSを横断してポリシー適用できるが、動作対象外のブラウザやプロファイルを利用されると制御しきれないことも。 | 
 | SaaS内のデータ | [Microsoft Purview](https://learn.microsoft.com/ja-jp/microsoft-365/compliance/dlp-learn-about-dlp)<br>[Workspace の DLP を使用してデータの損失を防止する](https://support.google.com/a/answer/9646351?hl=ja) | SaaSに組み込まれている機能のため、機密表示（ラベル）等と連携した細かな制御が実現可能。 |
+| データベース・ストレージ | [Amazon Macie](https://aws.amazon.com/jp/macie/)<br>[Cloud Data Loss Prevention](https://cloud.google.com/dlp?hl=ja) | 自社開発プロダクトが保有するデータに適用したい場合はこちら |
 
 CASB/SWGにカテゴライズされるサービスは、ネットワークレイヤでのDLPソリューションを提供しており、SaaS横断でDLPポリシーを適用し制御することが可能です。
 最も広範囲にDLPポリシーを適用可能なアプローチですが、使いこなすための運用工数の増加やソリューションのコストも高額になりがちです。
