@@ -65,16 +65,16 @@ READYFOR では、社内で利活用するITサービスの導入・活用や情
 
 多くの会社で取り組んでいるものになると思うので、基本的な実装は飛ばして特徴的な部分だけお伝えすると以下のあたりでしょうか。
 
-1. 画像生成（DALL·E3）や画像入力（GPT-4V）にも対応している（DALL·E3は Function Calling で呼び出し）
+1.画像生成（DALL·E3）や画像入力（GPT-4V）にも対応している（DALL·E3は Function Calling で呼び出し）
 
 ![DALL·E3]({{"/assets/images/2023-12-10-dall-e3.png" | relative_url }})
 ![GPT-4V]({{"/assets/images/2023-12-10-gpt-4v.png" | relative_url }})
 
-2. OpenAI 以外の有名なモデルにも対応している（Google の Gemini が待ち遠しい）
+2.OpenAI 以外の有名なモデルにも対応している（Google の Gemini が待ち遠しい）
 
 ![Generative AI Slack App]({{"/assets/images/2023-12-10-generative-ai-slack-app.png" | relative_url }})
 
-3. BigQuery にログを吐き出すことで利用状況を可視化し、分析分析による改善・利用促進しやすくしている（アプリ実行基盤をGCPに移行した9月以降）
+3.BigQuery にログを吐き出すことで利用状況を可視化し、分析分析による改善・利用促進しやすくしている（アプリ実行基盤をGCPに移行した9月以降）
 
 ![Slack App Usage Log]({{"/assets/images/2023-12-10-slack-app-usage-log.png" | relative_url }})
 
