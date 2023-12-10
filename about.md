@@ -22,7 +22,7 @@ banner: "/assets/images/about_banner.jpg"
 ### 職歴
 
 期間 | 組織 | 所属 / 役職（役割）
-2022/04 - | [READYFOR株式会社](https://corp.readyfor.jp/) | 情報システム部 / 部長
+2022/04 - | [READYFOR株式会社](https://corp.readyfor.jp/) | IT推進部 / 部長
 2022/04 - 2022/09 | [デジタル庁](https://www.digital.go.jp/) | ガバメントソリューションサービス班 / エンタープライズエンジニア
 2019/11 - 2022/03 | [READYFOR株式会社](https://corp.readyfor.jp/) | ワークスタイルデザイン部 / 部長
 2018/06 - 2019/10 | [株式会社メドレー](https://www.medley.jp/) | コーポレート本部 / コーポレートエンジニア
@@ -39,8 +39,8 @@ banner: "/assets/images/about_banner.jpg"
 
 ### 得意領域
 - 情報共有ツールを中心とした、社内利用システム全体のグランドデザイン
-- 全社情報セキュリティマネジメント（ID基盤、デバイス管理、NW管理、ISMS等）
-- コーポレート領域の業務に対するBPR（SaaS活用、ノーコード・ローコード開発）
+- 全社情報セキュリティマネジメント（ID基盤、デバイス管理、NW管理、ISMS、ITGC等）
+- フロントオフィス・バックオフィスのBPR（SaaS活用、ノーコード・ローコード開発）
 - ITインフラ全般（オンプレ、クラウド共に）
 
 ### 資格
