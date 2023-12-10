@@ -32,7 +32,7 @@ READYFOR では、社内で利活用するITサービスの導入・活用や情
 
 ![Generative AI Era]({{"/assets/images/2023-12-10-generative-ai-era.png" | relative_url }})
 
-実際、大手各社が正式に発表している生成AIサービスは下記の通り非常に高額に設定されており、高額な費用に見合う効果を確信して全社導入に踏み切る判断は非常に難しいのではないでしょうか。こういったアプリケーションレイヤでのサービス導入判断が難しい一方で、GPT-4をはじめとする基礎モデルのAPIは従量課金制で提供されているので、社内で小さく開発して導入することで安価に価値提供を進めることができます。
+実際、AIの主要プレイヤーが正式に発表している生成AIサービスの利用料金は下記の通り非常に高額に設定されており、高額な費用に見合う効果を確信して全社導入に踏み切る判断は非常に難しいのではないでしょうか。こういったアプリケーションレイヤでのサービス導入判断が難しい一方で、GPT-4をはじめとする基礎モデルのAPIは従量課金制で提供されているので、社内で小さく開発して導入することで安価に価値提供を進めることができます。
 
 - [ChatGPT Enterprise $20/user?](https://openai.com/enterprise)
 - [Microsoft Copilot for Microsoft 365 $30/user](https://www.microsoft.com/en-us/microsoft-365/enterprise/copilot-for-microsoft-365)
