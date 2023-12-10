@@ -36,7 +36,7 @@ READYFOR では、社内で利活用するITサービスの導入・活用や情
 
 - [ChatGPT Enterprise $20/user?](https://openai.com/enterprise)
 - [Microsoft Copilot for Microsoft 365 $30/user](https://www.microsoft.com/en-us/microsoft-365/enterprise/copilot-for-microsoft-365)
-- [Duet AI for Google Workspace $30/user?](https://cloud.google.com/duet-ai?hl=ja)
+- [Duet AI for Google Workspace $30/user?](https://support.google.com/a/answer/13623623?hl=ja)
 
 つまり、この領域ではまだまだコモディティ化が進んでいないことになるので、コーポレートエンジニアに求められるスキルとしても、生成AIを活用したITシステムを「開発する力」が求められるシーンが再び増えることになると感じています。
 
@@ -74,7 +74,7 @@ READYFOR では、社内で利活用するITサービスの導入・活用や情
 
 ![Generative AI Slack App]({{"/assets/images/2023-12-10-generative-ai-slack-app.png" | relative_url }})
 
-3.BigQuery にログを吐き出すことで利用状況を可視化し、分析分析による改善・利用促進しやすくしている（アプリ実行基盤をGCPに移行した9月以降）
+3.BigQuery にログを吐き出すことで利用状況を可視化し、分析による改善・利用促進しやすくしている（アプリ実行基盤をGCPに移行した9月以降）
 
 ![Slack App Usage Log]({{"/assets/images/2023-12-10-slack-app-usage-log.png" | relative_url }})
 
@@ -99,10 +99,10 @@ Google Workspace アドオンに関しては、Google Docs や Google Sheets か
    - OpenAI が提供する Whisper API 等を活用して開発することも検討しましたが、商談に活用している複数のサービスに対応するコストを考えて断念
 2. 要約処理は社内で開発
    - 商談のトークスクリプトと出力フォーマットを合わせる形でプロンプトを自社専用にチューニングしていきたいので、社内で開発する方針に
-   - amptalk から文字起こしデータが直接取れるわけではないので、Hubspot から取得する形に
+   - amptalk から文字起こしデータがAPIで直接取れるわけではないので、Hubspot から取得する形に
    - GPT-4 Turbo が出るまでは [LangChain の Summarization](https://python.langchain.com/docs/use_cases/summarization)を活用していたが、GPT-4 Turbo や Claude 2 は1時間の商談で発生する文字数程度であれば一度で処理し切るため、LangChainを外すことに
 3. Slack 通知後に編集できるように
-   - ルールベースのシステムと異なり、AIを組み込む際は一定のエラーが入ることを前提にUXを設計する必要があるため、商談担当者が実際に要約結果を見て、内容を最終確認する流れを作りました
+   - ルールベースのシステムと異なり、AIを組み込む際は一定のエラーが入ることを前提にUXを設計する必要があるため、商談担当者が実際に要約結果を見て、内容を最終確認する流れを実装
 
 以前から実用に耐えうる精度は確保されていましたが、GPT-4 Turbo の登場により1回で商談文字情報を処理し切れるようになり、要約精度の観点から大きく改善されたと感じます。とはいえ、そもそも文字起こしの段階で正確に文字起こしできていないと、どれだけ要約がうまくいっても限界はあるので、文字起こしの精度向上にも引き続き期待したいところです。（今の実装だと、amptalkに依存することにはなりますが）
 
