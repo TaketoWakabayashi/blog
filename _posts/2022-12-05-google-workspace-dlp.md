@@ -2,7 +2,9 @@
 layout: post
 title:  "Google Workspace DLPを触ってみた"
 description: "Google Workspace DLP の社内展開を通じて得られたTipsなどをまとめた記事"
-banner: "/assets/images/2022-12-05-advent-calendar-cover.jpg"
+banner: 
+    image: "/assets/images/2022-12-05-advent-calendar-cover.jpg"
+    heading_style: "color: transparent"
 date:   2022-12-05
 categories: IT
 tag: 
