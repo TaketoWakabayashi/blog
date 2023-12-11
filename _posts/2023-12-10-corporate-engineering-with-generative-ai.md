@@ -3,7 +3,7 @@ layout: post
 title:  "生成AIの熱狂に向き合った1年と社内活用推進の振り返り"
 description: "2023年に生成AIを活用したコーポレートエンジニアリングの取り組みを振り返った記事"
 banner: "/assets/images/2023-12-10-advent-calendar-cover.jpg"
-date:   2022-12-10
+date:   2023-12-10
 categories: IT
 tag: 
 - Generative AI
