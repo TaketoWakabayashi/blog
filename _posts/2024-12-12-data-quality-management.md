@@ -3,7 +3,7 @@ layout: post
 title:  "誰も不幸にならないデータクレンジングへの挑戦〜多様な顧客データ基盤をいかに整理するか〜"
 description: "READYFORが直面しているデータマネジメントの課題とその解決策の一端を紹介"
 banner: 
-   image: "/assets/images/2024-12-12-advent-calendar-cover.jpg"
+   image: "/assets/images/2024-12-12-advent-calendar-cover.png"
    heading_style: "display: none"
    subheading_style: "display: none"
 date:   2024-12-12
@@ -70,7 +70,7 @@ READYFORは、創業以来クラウドファンディングサービスを中心
 
 各ステークホルダーからのデータ品質に対する要求を取りまとめてデータ品質要件に整理するには、それなりにコストをかける必要があります。0から作る場合はなおさら、品質評価軸やKPIをステークホルダーと合意できる状態にまで中々落としきれないのが現実ではないでしょうか。品質の影響が大きい製造業などでは、そういった品質マネジメントにかかるコストも含めて戦略的に判断することを考える品質コストマネジメントのような領域も存在するようです。
 
-![品質コストマネジメント]({{"/assets/images/2024-12-12-qualitiy-cost-management" | relative_url }})
+![品質コストマネジメント]({{"/assets/images/2024-12-12-qualitiy-cost-management.png" | relative_url }})
 
 参考：[品質コストを削減しよう](https://www.itec.daikin.co.jp/manufacture/blog/qa_cost/)
 
