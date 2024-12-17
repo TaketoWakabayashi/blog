@@ -70,6 +70,6 @@ banner: "/assets/images/about_banner.jpg"
 - [Google Cloud Next '19 in Tokyo にて、App Maker の活用事例を紹介しました](https://developer.medley.jp/entry/2019/08/26/142457)
 
 ## SNS
-- [Facebook](https://www.facebook.com/taketo.wakabayashi.tw/)
-- [Twitter](https://twitter.com/TW_Oner)
+- [Facebook](https://www.facebook.com/taketooorian/)
+- [X(Twitter)](https://x.com/taketooorian)
 - [LinkedIn](https://www.linkedin.com/in/taketo-wakabayashi/)
