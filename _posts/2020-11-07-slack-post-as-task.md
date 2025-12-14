@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Slack 上の社内問い合わせ対応を高度化してみた"
+title: "Slack 上の社内問い合わせ対応を高度化してみた"
 description: "Slack で問い合わせ管理専用チャンネルを運用する際に良く直面する問題に対して、別のソリューションを入れるのではなく、GASで機能拡張することで対応してみたお話"
-date:   2020-11-07
+date: 2020-11-07
 categories: IT
 tags:
 - Slack

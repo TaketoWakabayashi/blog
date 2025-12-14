@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "はじめまして"
+title: "はじめまして"
 description: "SE, ITコンサル, 事業会社のIT部門と、様々な立場でITの利活用を推進している人間のブログを開始しました"
-date:   2020-11-03
+date: 2020-11-03
 categories: MISC
 ---
 

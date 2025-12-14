@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "BigQuery 生成AI関数を dbt パイプラインに組み込む際に色々詰まった話"
+title: "BigQuery 生成AI関数を dbt パイプラインに組み込む際に色々詰まった話"
 description: "データ基盤を構成する BigQuery × dbt パイプラインに生成AIの処理を組み込む際の試行錯誤と解決策"
 banner: 
    image: "/assets/images/2025-12-15-advent-calendar-cover.png"
    heading_style: "display: none"
    subheading_style: "display: none"
-date:   2025-12-15
+date: 2025-12-15
 categories: IT
 tag: 
 - dbt

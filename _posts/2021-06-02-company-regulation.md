@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GitHub & Jekyll & GAE & IAP で規程更新管理・社内公開プラットフォームを構築してみた"
+title: "GitHub & Jekyll & GAE & IAP で規程更新管理・社内公開プラットフォームを構築してみた"
 description: "GitHub"
-date:   2021-06-02
+date: 2021-06-02
 categories: IT
 tag: 
 - GitHub

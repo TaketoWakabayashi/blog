@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "誰も不幸にならないデータクレンジングへの挑戦〜多様な顧客データ基盤をいかに整理するか〜"
+title: "誰も不幸にならないデータクレンジングへの挑戦〜多様な顧客データ基盤をいかに整理するか〜"
 description: "READYFORが直面しているデータマネジメントの課題とその解決策の一端を紹介"
 banner: 
    image: "/assets/images/2024-12-12-advent-calendar-cover.png"
    heading_style: "display: none"
    subheading_style: "display: none"
-date:   2024-12-12
+date: 2024-12-12
 categories: IT
 tag: 
 - Data Management
