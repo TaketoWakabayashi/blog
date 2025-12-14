@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "はじめまして"
+title: "はじめまして"
 description: "ここに説明を書きます"
-date:   2020-01-01
+date: 2020-01-01
 categories: MISC
 tag: 
 - A
