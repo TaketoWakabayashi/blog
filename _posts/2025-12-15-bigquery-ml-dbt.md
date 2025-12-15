@@ -45,10 +45,10 @@ tag:
 ## 直面した課題
 ### 1. コスト管理
 これは想像に難くないと思いますが、BigQuery の AI関数で外部の LLM を呼び出す処理は、当然ながら通常のクエリ課金とは異なる規模のコストが発生します。
-一般的な規模のデータに対する dbtパイプラインであれば、最初からそこまで意識しなくても問題ない処理効率を、最初からかなり意識せざるを得ないことになります。
+一般的な規模のデータに対する dbtパイプラインであれば、そこまで意識しなくても問題ない処理効率を、最初からかなり意識せざるを得ないことになります。
 
 **具体的な対策:**
-- AI関数を呼び出すモデルは必ず[incremental モデル](https://docs.getdbt.com/docs/build/incremental-models)で構築することで処理対象となるレコード数も最小限になるように設計する（もちろん可能な限り WHERE句 やハッシュ比較によるフィルタも行う）
+- AI関数を呼び出すモデルは必ず[incremental モデル](https://docs.getdbt.com/docs/build/incremental-models)で構築することで処理対象となるレコード数も最小限になるように設計する（もちろん可能な限り WHERE句 やハッシュ値の比較によるフィルタも行う）
 - 普通に `full_refresh` オプションを指定するだけでは再構築（全件処理）されないようにする（[full_refresh = false](https://docs.getdbt.com/reference/resource-configs/full_refresh)）
 - AI関数を呼び出す回数を可能な限り集約する。特に [AI.GENERATE_TABLE](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-generate-table?hl=ja) を活用すると指定した形式での構造化データを出力できるので、同一入力値に対して複数の出力が必要な場合に処理はまとめることを検討する
 - 開発環境では、sample データのみを使用するよう `target.name` で分岐を入れる（後述するタイムアウト問題に対処するために、本番・開発環境をAI関数専用に分離しても良さそうです）
